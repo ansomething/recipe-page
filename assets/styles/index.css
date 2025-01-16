@@ -21,7 +21,7 @@ header {
     display: block;
     margin: auto;
     background-color: var(--white);
-    max-width: 670px;
+    max-width: 680px;
 }
 
 header div.container-img-omelette {
@@ -33,7 +33,11 @@ header div.container-img-omelette {
 
 main {
     background-color: var(--white);
-    padding: 35px;
+    padding: 40px;
+}
+
+section {
+    margin-right: 40px;
 }
 
 section.recipe-about-section > h1 {
@@ -66,7 +70,7 @@ section.preparation-time-section > h3 {
 /* -------- LIST GLOBAL STYLE -------- */
 ul, ol {
     list-style-position: inside;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 ul li > p, ol li > p {
@@ -74,7 +78,7 @@ ul li > p, ol li > p {
     top: -22px;
     left: 40px;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 /* ----------------------------------- */
 
