@@ -1,0 +1,140 @@
+@import url(style.css);
+
+
+* { /* -------- RESET CONFIGS -------- */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--stone100);
+    font-family: "outfit", Arial, Helvetica, sans-serif;
+    color: var(--stone600);
+    font-size: 1.1em;
+}
+
+header {
+    display: block;
+    margin: auto;
+    background-color: var(--white);
+    max-width: 670px;
+}
+
+header div.container-img-omelette {
+    background: var(--white) url(../images/image-omelette.jpeg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+main {
+    background-color: var(--white);
+    padding: 35px;
+}
+
+section.recipe-about-section > h1 {
+    font-family: "young-serif", 'Times New Roman', Times, serif;
+    color: var(--stone900);
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+
+section.recipe-about-section > p {
+    color: var(--stone600);
+    line-height: 1.5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+section.preparation-time-section {
+    background-color: var(--rose50);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+section.preparation-time-section > h3 {
+    color: var(--rose800);
+    margin-bottom: 20px;
+}
+
+/* -------- LIST GLOBAL STYLE -------- */
+ul, ol {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+ul li > p, ol li > p {
+    position: relative;
+    top: -22px;
+    left: 40px;
+    text-align: justify;
+    margin-right: 50px;
+}
+/* ----------------------------------- */
+
+ul.preparation-time-list > li::marker {
+    color: var(--rose800);
+    font-size: 0.8em;
+}
+
+ul.ingredients-list > li::marker {
+    color: var(--brown800);
+    font-size: 0.8em;
+}
+
+main hr {
+    border: none;
+    height: 1px;
+    background-color: var(--stone150);
+    margin: 30px 0px 30px 0px;
+}
+
+main section > h2 {
+    font-family: "young-serif", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    margin: 20px 0px 20px 0px;
+    color: var(--brown800);
+}
+
+ol.instructions-list > li::marker {
+    color: var(--brown800);
+    font-weight: 700;
+}
+
+section.nutrition-section > p {
+    margin-bottom: 30px;
+}
+
+table.nutrition-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.nutrition-table td {
+    border-bottom: 1px solid var(--stone150);
+    padding: 10px;
+    text-indent: 20px;
+}
+
+table.nutrition-table tr > td.value {
+    color: var(--brown800);
+}
+
+footer {
+    color: var(--stone900);
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer div.attribution > a {
+    color: var(--blue);
+}
