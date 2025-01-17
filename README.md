@@ -29,7 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [GitHub Pages]()
+- Live Site URL: [GitHub Pages](https://ansomething.github.io/recipe-page/)
 
 ### Built with
 
